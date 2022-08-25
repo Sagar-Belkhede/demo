@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1661439486,,"wq"
+|2,0,1661439694,,"wq"
 :Wq
 |2,0,1661439468,,"Wq"
 
@@ -27,22 +27,42 @@
 # Registers:
 
 # File marks:
-'0  2  0  ~/file2.txt
-|4,48,2,0,1661439486,"~/file2.txt"
-'1  1  9  ~/file1.txt
-|4,49,1,9,1661439470,"~/file1.txt"
-'2  1  0  ~/devopsdemo/file1.txt
-|4,50,1,0,1661436801,"~/devopsdemo/file1.txt"
+'0  1  15  ~/feature1.txt
+|4,48,1,15,1661439694,"~/feature1.txt"
+'1  2  0  ~/file2.txt
+|4,49,2,0,1661439486,"~/file2.txt"
+'2  1  9  ~/file1.txt
+|4,50,1,9,1661439470,"~/file1.txt"
+'3  1  0  ~/devopsdemo/file1.txt
+|4,51,1,0,1661436801,"~/devopsdemo/file1.txt"
 
 # Jumplist (newest first):
+-'  1  15  ~/feature1.txt
+|4,39,1,15,1661439694,"~/feature1.txt"
 -'  2  0  ~/file2.txt
 |4,39,2,0,1661439486,"~/file2.txt"
+-'  2  0  ~/file2.txt
+|4,39,2,0,1661439486,"~/file2.txt"
+-'  1  0  ~/file2.txt
+|4,39,1,0,1661439476,"~/file2.txt"
 -'  1  0  ~/file2.txt
 |4,39,1,0,1661439476,"~/file2.txt"
 -'  1  9  ~/file1.txt
 |4,39,1,9,1661439470,"~/file1.txt"
 -'  1  9  ~/file1.txt
 |4,39,1,9,1661439470,"~/file1.txt"
+-'  1  9  ~/file1.txt
+|4,39,1,9,1661439470,"~/file1.txt"
+-'  1  9  ~/file1.txt
+|4,39,1,9,1661439470,"~/file1.txt"
+-'  1  0  ~/devopsdemo/file1.txt
+|4,39,1,0,1661436801,"~/devopsdemo/file1.txt"
+-'  1  0  ~/devopsdemo/file1.txt
+|4,39,1,0,1661436801,"~/devopsdemo/file1.txt"
+-'  1  0  ~/devopsdemo/file1.txt
+|4,39,1,0,1661436801,"~/devopsdemo/file1.txt"
+-'  1  0  ~/devopsdemo/file1.txt
+|4,39,1,0,1661436801,"~/devopsdemo/file1.txt"
 -'  1  0  ~/devopsdemo/file1.txt
 |4,39,1,0,1661436801,"~/devopsdemo/file1.txt"
 -'  1  0  ~/devopsdemo/file1.txt
@@ -53,6 +73,13 @@
 |4,39,1,0,1661436801,"~/devopsdemo/file1.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/feature1.txt
+	*	1661439693	0
+	"	1	15
+	^	1	16
+	.	1	15
+	+	1	15
 
 > ~/file2.txt
 	*	1661439484	0
